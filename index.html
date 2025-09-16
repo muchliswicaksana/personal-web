@@ -23,7 +23,7 @@
           <a href="#about" class="nav-link">About</a>
         </li>
         <li>
-          <a href="#" class="nav-link">Portofolio</a>
+          <a href="#portfolio" class="nav-link">Portofolio</a>
         </li>
         <li>
           <a href="#" class="nav-link">Contact</a>
@@ -62,10 +62,10 @@
     <div class="about-me">
       <div class="desc">
         <h2>Hello, I'm<br><span>Muchlis Ar Wicaksana</span></h2>
-        <p>Seorang Mahasiswa jurusan Informatika yang memiliki ketertarikan besar dalam Front-End. Saya ingin
-          menciptakan
-          pengalaman digital yang menarik dan selalu berusaha memberikan solusi terbaik dalam setiap proyek yang saya
-          kerjakan.
+        <p>
+          Seorang Mahasiswa jurusan Informatika yang memiliki ketertarikan besar dalam bidang Front-End. Saya ingin
+          menciptakan pengalaman digital yang menarik dan selalu berusaha memberikan solusi terbaik dalam setiap proyek
+          yang saya kerjakan.
         </p>
         <div class="desc-btn">
           <button class="btn"><i class="bi bi-file-earmark-text"></i> Download CV</button>
@@ -80,8 +80,43 @@
       </div>
     </div>
   </section>
-
   <!-- About Section -->
+
+  <!-- Portofilio Section -->
+  <section id="portfolio">
+    <div class="porto-title">
+      <h1>Portfolio Showcase</h1>
+      <p>
+        Ikuti perjalanan saya dalam menjelajahi berbagai proyek, meraih sertifikasi, dan mengembangkan keahlian teknis. Setiap bagian mencerminkan pencapaian dan proses pembelajaran yang terus berkembang dalam perjalanan saya di dunia teknologi.
+    </p>
+    </div>
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab('projects')">Projects</div>
+      <div class="tab" onclick="switchTab('certi')">Certificates</div>
+      <div class="tab" onclick="switchTab('tech-stack')">Tech Stack</div>
+    </div>
+    <div id="projects" class="content active">
+      <div class="tech-item">
+        <img src="https://placehold.co/600x400" alt="Project 1">
+      </div>
+      <div class="tech-item">
+        <img src="https://placehold.co/600x400" alt="Project 2">
+      </div>
+    </div>
+    <div id="certi" class="content">
+      <div class="tech-item">
+        <img src="https://placehold.co/600x400" alt="Certificate 1">
+      </div>
+      <div class="tech-item">
+        <img src="https://placehold.co/600x400" alt="Certificate 1">
+      </div>
+    </div>
+    <div id="tech-stack" class="content">
+      <div class="tech-item">Tech 1</div>
+      <div class="tech-item">Tech 2</div>
+    </div>
+  </section>
+  <!-- Portofilio Section -->
 
   <script src="script.js"></script>
 </body>
